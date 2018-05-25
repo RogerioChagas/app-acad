@@ -1,0 +1,27 @@
+{
+  "name": "app-acad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "cd my_modules/oai-pmh-harvester/; npm i",
+    "start": "node ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongoose": "^5.1.1",
+    "oai-pmh": "^1.1.1",
+    "async": "^2.6.0"
+    
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "run-script-os": "^1.0.3"
+  }
+}
